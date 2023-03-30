@@ -61,7 +61,7 @@ sc_HomeScreen As screen:
     Label4 As label:
         Height: =139
         Size: =20
-        Text: ="Share and review interview feedback on job candidates."
+        Text: ="Share and review interview feedback on job candidates. HR Sucks"
         Width: =391
         X: =46
         Y: =427
