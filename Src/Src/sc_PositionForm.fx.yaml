@@ -695,7 +695,7 @@ sc_PositionForm As screen:
         Size: =17
         Text: ="Submit"
         Width: =234
-        X: =464
+        X: =514
         Y: =639
         ZIndex: =17
 
@@ -773,7 +773,7 @@ sc_PositionForm As screen:
         Size: =18
         Text: ="Back"
         Width: =200
-        X: =608
+        X: =262
         Y: =639
         ZIndex: =19
 

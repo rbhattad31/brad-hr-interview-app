@@ -102,11 +102,11 @@
     "Id": "30697e99-8932-499f-9fec-60037ed7bb46",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
-    "Name": "Interview Management Application",
+    "Name": "Interview Management Application Development",
     "OriginatingVersion": "1.330"
   },
   "PublishInfo": {
-    "AppName": "Interview Management Application",
+    "AppName": "Interview Management Application Development",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",

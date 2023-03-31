@@ -24,11 +24,11 @@ sc_DetailsScreen As screen:
         )
 
     Container1 As groupContainer.manualLayoutContainer:
-        Height: =499
+        Height: =438
         LayoutDirection: =LayoutDirection.Manual
         LayoutMode: =LayoutMode.Auto
-        Width: =1040
-        X: =326
-        Y: =269
+        Width: =1006
+        X: =9
+        Y: =24
         ZIndex: =17
 

@@ -109,12 +109,12 @@ sc_depart As screen:
 
     Form2 As form:
         DataSource: =Department_a
-        Height: =226
+        Height: =340
         Item: =Gl_Department.Selected
         OnSuccess: =Navigate(sc_HomeScreen,ScreenTransition.Fade);
-        Width: =733
-        X: =499
-        Y: =191
+        Width: =833
+        X: =463
+        Y: =175
         ZIndex: =16
 
     Button5 As button:

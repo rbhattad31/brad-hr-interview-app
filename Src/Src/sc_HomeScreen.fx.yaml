@@ -9,13 +9,13 @@ sc_HomeScreen As screen:
 
     bn_Style_2 As button:
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =Gl_Department.Height
+        Height: =231
         RadiusBottomLeft: =45
         RadiusBottomRight: =45
         RadiusTopLeft: =45
         RadiusTopRight: =45
         Text: =""
-        Width: =902
+        Width: =430
         X: =464
         Y: =138
         ZIndex: =2
@@ -39,10 +39,10 @@ sc_HomeScreen As screen:
         Items: =Department_a
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =268
-        Width: =885
+        TemplateSize: =240
+        Width: =865
         WrapCount: =2
-        X: =481
+        X: =464
         Y: =133
         ZIndex: =4
 
