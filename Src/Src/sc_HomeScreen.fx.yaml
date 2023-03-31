@@ -14,7 +14,8 @@ sc_HomeScreen As screen:
         RadiusBottomRight: =45
         RadiusTopLeft: =45
         RadiusTopRight: =45
-        Text: =""
+        Size: =18
+        Text: ="Marketing"
         Width: =430
         X: =464
         Y: =138
@@ -29,18 +30,19 @@ sc_HomeScreen As screen:
         RadiusTopRight: =35
         Text: =""
         Width: =411
-        X: =26
+        X: =15
         Y: =138
         ZIndex: =3
 
     Gl_Department As gallery.galleryVertical:
         DelayItemLoading: =true
+        Fill: =RGBA(215, 223, 240, 1)
         Height: =519
         Items: =Department_a
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =240
-        Width: =865
+        TemplateSize: =236
+        Width: =873
         WrapCount: =2
         X: =464
         Y: =133
