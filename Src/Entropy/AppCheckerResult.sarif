@@ -2018,19 +2018,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Interview Date_DataCard1'.DataCardValue5.AccessibleLabel"
+                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Feedback_DataCard2.DataCardValue61.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Interview Date_DataCard1'.DataCardValue5.AccessibleLabel",
+                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Feedback_DataCard2.DataCardValue61.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "sc_InterviewFeedbackForm",
-                "type": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Interview Date_DataCard1'.DataCardValue5"
+                "type": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Feedback_DataCard2.DataCardValue61"
               }
             }
           ],
@@ -2048,19 +2048,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Interviewer Name_DataCard1'.DataCardValue4.AccessibleLabel"
+                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Status Change Date_DataCard2'.DataCardValue60.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Interviewer Name_DataCard1'.DataCardValue4.AccessibleLabel",
+                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Status Change Date_DataCard2'.DataCardValue60.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "sc_InterviewFeedbackForm",
-                "type": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Interviewer Name_DataCard1'.DataCardValue4"
+                "type": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Status Change Date_DataCard2'.DataCardValue60"
               }
             }
           ],
@@ -2078,19 +2078,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Position_DataCard1.DataCardValue3.AccessibleLabel"
+                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Multi Level Interview Stage_DataCard2'.DataCardValue59.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Position_DataCard1.DataCardValue3.AccessibleLabel",
+                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Multi Level Interview Stage_DataCard2'.DataCardValue59.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "sc_InterviewFeedbackForm",
-                "type": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Position_DataCard1.DataCardValue3"
+                "type": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Multi Level Interview Stage_DataCard2'.DataCardValue59"
               }
             }
           ],
@@ -2108,19 +2108,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Department_DataCard1.DataCardValue2.AccessibleLabel"
+                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Interview Date_DataCard2'.DataCardValue58.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Department_DataCard1.DataCardValue2.AccessibleLabel",
+                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Interview Date_DataCard2'.DataCardValue58.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "sc_InterviewFeedbackForm",
-                "type": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Department_DataCard1.DataCardValue2"
+                "type": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Interview Date_DataCard2'.DataCardValue58"
               }
             }
           ],
@@ -2138,19 +2138,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Status_DataCard1.DataCardValue1.AccessibleLabel"
+                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Interviewer Name_DataCard2'.DataCardValue57.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Status_DataCard1.DataCardValue1.AccessibleLabel",
+                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Interviewer Name_DataCard2'.DataCardValue57.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "sc_InterviewFeedbackForm",
-                "type": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Status_DataCard1.DataCardValue1"
+                "type": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Interviewer Name_DataCard2'.DataCardValue57"
               }
             }
           ],
@@ -2168,19 +2168,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Multi Level Interview Stage_DataCard1'.DataCardValue6.AccessibleLabel"
+                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Department_DataCard6.DataCardValue55.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Multi Level Interview Stage_DataCard1'.DataCardValue6.AccessibleLabel",
+                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Department_DataCard6.DataCardValue55.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "sc_InterviewFeedbackForm",
-                "type": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Multi Level Interview Stage_DataCard1'.DataCardValue6"
+                "type": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Department_DataCard6.DataCardValue55"
               }
             }
           ],
@@ -2198,49 +2198,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Status Change Date_DataCard1'.DataCardValue7.AccessibleLabel"
+                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Position_DataCard3.DataCardValue56.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Status Change Date_DataCard1'.DataCardValue7.AccessibleLabel",
+                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Position_DataCard3.DataCardValue56.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "sc_InterviewFeedbackForm",
-                "type": "sc_InterviewFeedbackForm.InterviewFeedbackForm.'Status Change Date_DataCard1'.DataCardValue7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Feedback_DataCard1.DataCardValue8.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Feedback_DataCard1.DataCardValue8.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "sc_InterviewFeedbackForm",
-                "type": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Feedback_DataCard1.DataCardValue8"
+                "type": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Position_DataCard3.DataCardValue56"
               }
             }
           ],
@@ -2361,6 +2331,36 @@
                 "member": "AccessibleLabel",
                 "module": "sc_CandidateDetailsScreen",
                 "type": "sc_CandidateDetailsScreen.Gallery3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Status_DataCard3.DataCardValue54.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Status_DataCard3.DataCardValue54.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "sc_InterviewFeedbackForm",
+                "type": "sc_InterviewFeedbackForm.InterviewFeedbackForm.Status_DataCard3.DataCardValue54"
               }
             }
           ],

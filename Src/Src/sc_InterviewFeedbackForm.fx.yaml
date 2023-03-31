@@ -11,7 +11,7 @@ sc_InterviewFeedbackForm As screen:
         Y: =158
         ZIndex: =6
 
-        Status_DataCard1 As typedDataCard.textualEditCard:
+        Status_DataCard3 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Title"
             Default: =ThisItem.Status
@@ -21,13 +21,13 @@ sc_InterviewFeedbackForm As screen:
             Height: =50
             MaxLength: =DataSourceInfo([@Interview_e], DataSourceInfo.MaxLength, "Title")
             Required: =true
-            Update: =DataCardValue1.Text
+            Update: =DataCardValue54.Text
             Width: =681
             X: =0
             Y: =0
             ZIndex: =7
 
-            DataCardKey1 As label:
+            DataCardKey54 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -37,7 +37,7 @@ sc_InterviewFeedbackForm As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue1 As text:
+            DataCardValue54 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -51,10 +51,10 @@ sc_InterviewFeedbackForm As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey1.Y + DataCardKey1.Height + 5
+                Y: =DataCardKey54.Y + DataCardKey54.Height + 5
                 ZIndex: =2
 
-            ErrorMessage1 As label:
+            ErrorMessage54 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -66,20 +66,20 @@ sc_InterviewFeedbackForm As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue1.Y + DataCardValue1.Height
+                Y: =DataCardValue54.Y + DataCardValue54.Height
                 ZIndex: =3
 
-            StarVisible1 As label:
+            StarVisible54 As label:
                 Align: =Align.Center
-                Height: =DataCardKey1.Height
+                Height: =DataCardKey54.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey1.Y
+                Y: =DataCardKey54.Y
                 ZIndex: =4
 
-        Department_DataCard1 As typedDataCard.comboBoxEditCard:
+        Department_DataCard6 As typedDataCard.comboBoxEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Department"
             Default: =ThisItem.Department
@@ -88,13 +88,13 @@ sc_InterviewFeedbackForm As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue2.Selected
+            Update: =DataCardValue55.Selected
             Width: =681
             X: =1
             Y: =0
             ZIndex: =7
 
-            DataCardKey2 As label:
+            DataCardKey55 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -104,7 +104,7 @@ sc_InterviewFeedbackForm As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue2 As combobox:
+            DataCardValue55 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultSelectedItems: =Parent.Default
                 DisplayFields: =["Value"]
@@ -112,15 +112,15 @@ sc_InterviewFeedbackForm As screen:
                 Items: =Choices([@Interview_e].Department)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
-                SearchItems: =Choices(Interview_e.Department,DataCardValue2.SearchText)
+                SearchItems: =Choices(Interview_e.Department,DataCardValue55.SearchText)
                 SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey2.Y + DataCardKey2.Height + 5
+                Y: =DataCardKey55.Y + DataCardKey55.Height + 5
                 ZIndex: =2
 
-            ErrorMessage2 As label:
+            ErrorMessage55 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -132,20 +132,20 @@ sc_InterviewFeedbackForm As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue2.Y + DataCardValue2.Height
+                Y: =DataCardValue55.Y + DataCardValue55.Height
                 ZIndex: =3
 
-            StarVisible2 As label:
+            StarVisible55 As label:
                 Align: =Align.Center
-                Height: =DataCardKey2.Height
+                Height: =DataCardKey55.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey2.Y
+                Y: =DataCardKey55.Y
                 ZIndex: =4
 
-        Position_DataCard1 As typedDataCard.comboBoxEditCard:
+        Position_DataCard3 As typedDataCard.comboBoxEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Position"
             Default: =ThisItem.Position
@@ -154,13 +154,13 @@ sc_InterviewFeedbackForm As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue3.Selected
+            Update: =DataCardValue56.Selected
             Width: =681
             X: =0
             Y: =1
             ZIndex: =7
 
-            DataCardKey3 As label:
+            DataCardKey56 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -170,7 +170,7 @@ sc_InterviewFeedbackForm As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue3 As combobox:
+            DataCardValue56 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultSelectedItems: =Parent.Default
                 DisplayFields: =["Value"]
@@ -178,15 +178,15 @@ sc_InterviewFeedbackForm As screen:
                 Items: =Choices([@Interview_e].Position)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
-                SearchItems: =Choices(Interview_e.Position,DataCardValue3.SearchText)
+                SearchItems: =Choices(Interview_e.Position,DataCardValue56.SearchText)
                 SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey3.Y + DataCardKey3.Height + 5
+                Y: =DataCardKey56.Y + DataCardKey56.Height + 5
                 ZIndex: =2
 
-            ErrorMessage3 As label:
+            ErrorMessage56 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -198,20 +198,20 @@ sc_InterviewFeedbackForm As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue3.Y + DataCardValue3.Height
+                Y: =DataCardValue56.Y + DataCardValue56.Height
                 ZIndex: =3
 
-            StarVisible3 As label:
+            StarVisible56 As label:
                 Align: =Align.Center
-                Height: =DataCardKey3.Height
+                Height: =DataCardKey56.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey3.Y
+                Y: =DataCardKey56.Y
                 ZIndex: =4
 
-        "'Interviewer Name_DataCard1' As typedDataCard.comboBoxEditCard":
+        "'Interviewer Name_DataCard2' As typedDataCard.comboBoxEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Interviewer_x0020_Name"
             Default: =ThisItem.'Interviewer Name'
@@ -220,13 +220,13 @@ sc_InterviewFeedbackForm As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue4.Selected
+            Update: =DataCardValue57.Selected
             Width: =681
             X: =1
             Y: =1
             ZIndex: =7
 
-            DataCardKey4 As label:
+            DataCardKey57 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -236,7 +236,7 @@ sc_InterviewFeedbackForm As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue4 As combobox:
+            DataCardValue57 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultSelectedItems: =Parent.Default
                 DisplayFields: =["Value"]
@@ -244,15 +244,15 @@ sc_InterviewFeedbackForm As screen:
                 Items: =Choices([@Interview_e].Interviewer_x0020_Name)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
-                SearchItems: =Choices(Interview_e.Interviewer_x0020_Name,DataCardValue4.SearchText)
+                SearchItems: =Choices(Interview_e.Interviewer_x0020_Name,DataCardValue57.SearchText)
                 SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey4.Y + DataCardKey4.Height + 5
+                Y: =DataCardKey57.Y + DataCardKey57.Height + 5
                 ZIndex: =2
 
-            ErrorMessage4 As label:
+            ErrorMessage57 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -264,20 +264,20 @@ sc_InterviewFeedbackForm As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue4.Y + DataCardValue4.Height
+                Y: =DataCardValue57.Y + DataCardValue57.Height
                 ZIndex: =3
 
-            StarVisible4 As label:
+            StarVisible57 As label:
                 Align: =Align.Center
-                Height: =DataCardKey4.Height
+                Height: =DataCardKey57.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey4.Y
+                Y: =DataCardKey57.Y
                 ZIndex: =4
 
-        "'Interview Date_DataCard1' As typedDataCard.dateEditCard":
+        "'Interview Date_DataCard2' As typedDataCard.dateEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Interview_x0020_Date"
             Default: =ThisItem.'Interview Date'
@@ -286,13 +286,13 @@ sc_InterviewFeedbackForm As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue5.SelectedDate
+            Update: =DataCardValue58.SelectedDate
             Width: =681
             X: =0
             Y: =2
             ZIndex: =7
 
-            DataCardKey5 As label:
+            DataCardKey58 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -302,7 +302,7 @@ sc_InterviewFeedbackForm As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue5 As datepicker:
+            DataCardValue58 As datepicker:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -314,10 +314,10 @@ sc_InterviewFeedbackForm As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey5.Y + DataCardKey5.Height + 5
+                Y: =DataCardKey58.Y + DataCardKey58.Height + 5
                 ZIndex: =2
 
-            ErrorMessage5 As label:
+            ErrorMessage58 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -329,20 +329,20 @@ sc_InterviewFeedbackForm As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue5.Y + DataCardValue5.Height
+                Y: =DataCardValue58.Y + DataCardValue58.Height
                 ZIndex: =3
 
-            StarVisible5 As label:
+            StarVisible58 As label:
                 Align: =Align.Center
-                Height: =DataCardKey5.Height
+                Height: =DataCardKey58.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey5.Y
+                Y: =DataCardKey58.Y
                 ZIndex: =4
 
-        "'Multi Level Interview Stage_DataCard1' As typedDataCard.textualEditCard":
+        "'Multi Level Interview Stage_DataCard2' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Multi_x0020_Level_x0020_Intervie"
             Default: =ThisItem.'Multi Level Interview Stage'
@@ -352,13 +352,13 @@ sc_InterviewFeedbackForm As screen:
             Height: =50
             MaxLength: =DataSourceInfo([@Interview_e], DataSourceInfo.MaxLength, "Multi_x0020_Level_x0020_Intervie")
             Required: =false
-            Update: =DataCardValue6.Text
+            Update: =DataCardValue59.Text
             Width: =681
             X: =1
             Y: =2
             ZIndex: =7
 
-            DataCardKey6 As label:
+            DataCardKey59 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -368,7 +368,7 @@ sc_InterviewFeedbackForm As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue6 As text:
+            DataCardValue59 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -382,10 +382,10 @@ sc_InterviewFeedbackForm As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey6.Y + DataCardKey6.Height + 5
+                Y: =DataCardKey59.Y + DataCardKey59.Height + 5
                 ZIndex: =2
 
-            ErrorMessage6 As label:
+            ErrorMessage59 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -397,20 +397,20 @@ sc_InterviewFeedbackForm As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue6.Y + DataCardValue6.Height
+                Y: =DataCardValue59.Y + DataCardValue59.Height
                 ZIndex: =3
 
-            StarVisible6 As label:
+            StarVisible59 As label:
                 Align: =Align.Center
-                Height: =DataCardKey6.Height
+                Height: =DataCardKey59.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey6.Y
+                Y: =DataCardKey59.Y
                 ZIndex: =4
 
-        "'Status Change Date_DataCard1' As typedDataCard.dateEditCard":
+        "'Status Change Date_DataCard2' As typedDataCard.dateEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Status_x0020_Change_x0020_Date"
             Default: =ThisItem.'Status Change Date'
@@ -419,13 +419,13 @@ sc_InterviewFeedbackForm As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue7.SelectedDate
+            Update: =DataCardValue60.SelectedDate
             Width: =681
             X: =0
             Y: =3
             ZIndex: =7
 
-            DataCardKey7 As label:
+            DataCardKey60 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -435,7 +435,7 @@ sc_InterviewFeedbackForm As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue7 As datepicker:
+            DataCardValue60 As datepicker:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -447,10 +447,10 @@ sc_InterviewFeedbackForm As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey7.Y + DataCardKey7.Height + 5
+                Y: =DataCardKey60.Y + DataCardKey60.Height + 5
                 ZIndex: =2
 
-            ErrorMessage7 As label:
+            ErrorMessage60 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -462,20 +462,20 @@ sc_InterviewFeedbackForm As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue7.Y + DataCardValue7.Height
+                Y: =DataCardValue60.Y + DataCardValue60.Height
                 ZIndex: =3
 
-            StarVisible7 As label:
+            StarVisible60 As label:
                 Align: =Align.Center
-                Height: =DataCardKey7.Height
+                Height: =DataCardKey60.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey7.Y
+                Y: =DataCardKey60.Y
                 ZIndex: =4
 
-        Feedback_DataCard1 As typedDataCard.textualEditCard:
+        Feedback_DataCard2 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Feedback"
             Default: =ThisItem.Feedback
@@ -485,13 +485,13 @@ sc_InterviewFeedbackForm As screen:
             Height: =50
             MaxLength: =DataSourceInfo([@Interview_e], DataSourceInfo.MaxLength, "Feedback")
             Required: =false
-            Update: =DataCardValue8.Text
+            Update: =DataCardValue61.Text
             Width: =681
             X: =1
             Y: =3
             ZIndex: =7
 
-            DataCardKey8 As label:
+            DataCardKey61 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -501,7 +501,7 @@ sc_InterviewFeedbackForm As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue8 As text:
+            DataCardValue61 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -515,10 +515,10 @@ sc_InterviewFeedbackForm As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey8.Y + DataCardKey8.Height + 5
+                Y: =DataCardKey61.Y + DataCardKey61.Height + 5
                 ZIndex: =2
 
-            ErrorMessage8 As label:
+            ErrorMessage61 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -530,17 +530,17 @@ sc_InterviewFeedbackForm As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue8.Y + DataCardValue8.Height
+                Y: =DataCardValue61.Y + DataCardValue61.Height
                 ZIndex: =3
 
-            StarVisible8 As label:
+            StarVisible61 As label:
                 Align: =Align.Center
-                Height: =DataCardKey8.Height
+                Height: =DataCardKey61.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey8.Y
+                Y: =DataCardKey61.Y
                 ZIndex: =4
 
     Candi_Submit_2 As button:
@@ -550,7 +550,10 @@ sc_InterviewFeedbackForm As screen:
         Height: =50
         OnSelect: |-
             =SubmitForm(InterviewFeedbackForm);
-            Navigate(sc_InterviewerFormAdded);
+            Notify
+            (
+                "Feedback has been added Successfully ", NotificationType.Success
+            );
         Size: =17
         Text: ="Submit"
         Width: =183
