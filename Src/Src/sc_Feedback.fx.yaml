@@ -1,6 +1,6 @@
-sc_InterviewerForm_1 As screen:
+sc_Feedback As screen:
 
-    InterviewerForm_1 As form:
+    FeedbackForm As form:
         DataSource: =Interview_e
         DefaultMode: =FormMode.New
         Height: =513
@@ -549,7 +549,7 @@ sc_InterviewerForm_1 As screen:
         FontWeight: =FontWeight.Semibold
         Height: =50
         OnSelect: |-
-            =SubmitForm(InterviewerForm_1);
+            =SubmitForm(FeedbackForm);
             Notify
             (
                 "Interviewer Details added Successfully ", NotificationType.Success
@@ -573,7 +573,7 @@ sc_InterviewerForm_1 As screen:
             FontWeight: =FontWeight.Semibold
             Height: =118
             Size: =27
-            Text: ="Interviewer Form"
+            Text: ="Interviewer Feedback"
             Width: =613
             X: =367
             Y: =40
@@ -614,7 +614,7 @@ sc_InterviewerForm_1 As screen:
         FontWeight: =FontWeight.Semibold
         Height: =50
         OnSelect: |-
-            =ResetForm(InterviewerForm_1);
+            =ResetForm(FeedbackForm);
             Navigate(sc_HomeScreen,ScreenTransition.Fade);
         Size: =17
         Text: ="Cancel"
