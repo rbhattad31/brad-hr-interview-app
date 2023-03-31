@@ -356,7 +356,10 @@ sc_InterviewerForm As screen:
         Height: =50
         OnSelect: |-
             =SubmitForm(InterviewerForm);
-            Navigate(sc_InterviewerFormAdded);
+            Notify
+            (
+                "Interviewer Details added Successfully ", NotificationType.Success
+            );
         Size: =17
         Text: ="Submit"
         Width: =183
