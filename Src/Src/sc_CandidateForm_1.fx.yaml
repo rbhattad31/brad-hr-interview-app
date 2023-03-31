@@ -1,0 +1,132 @@
+sc_CandidateForm_1 As screen:
+
+    "Gallery3 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
+        BorderThickness: =2
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =379
+        Items: =Candidate_c
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =71
+        Width: =291
+        X: =29
+        Y: =308
+        ZIndex: =1
+
+        Title5 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Title
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        Separator5 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =3
+
+    Label3 As label:
+        Height: =60
+        Text: =Filter(Candidate_c,Position.Id=<variable with position details>.ID)
+        Width: =262
+        X: =29
+        Y: =153
+        ZIndex: =17
+
+    Header_3 As group:
+        Height: =5
+        Width: =5
+        X: =14
+        Y: =20
+        ZIndex: =17
+
+        bn_Header_10 As button:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =110
+            RadiusBottomLeft: =30
+            RadiusBottomRight: =30
+            RadiusTopLeft: =30
+            RadiusTopRight: =30
+            Text: =""
+            Width: =1337
+            X: =29
+            Y: =30
+            ZIndex: =12
+
+        lb_Title_8 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Height: =102
+            Size: =26
+            Text: ="Candidate Form"
+            Width: =675
+            X: =344
+            Y: =31
+            ZIndex: =13
+
+        lb_user_8 As label:
+            Height: =57
+            Size: =18
+            Text: =User().FullName
+            Width: =178
+            X: =1072
+            Y: =51
+            ZIndex: =14
+
+        im_Profile_8 As image:
+            Image: =User().Image
+            RadiusBottomLeft: =50
+            RadiusBottomRight: =50
+            RadiusTopLeft: =50
+            RadiusTopRight: =50
+            X: =1250
+            Y: =31
+            ZIndex: =15
+
+        im_company_logo_8 As image:
+            Image: ='bradsol-logo'
+            Width: =231
+            X: =60
+            Y: =30
+            ZIndex: =16
+
+    Rectangle3 As rectangle:
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =80
+        OnSelect: =Navigate(sc_CandidateForm);
+        Width: =291
+        X: =29
+        Y: =213
+        ZIndex: =20
+
+    Label5 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =87
+        Size: =18
+        Text: ="Candidate"
+        Width: =145
+        X: =60
+        Y: =206
+        ZIndex: =21
+
+    Icon3 As icon.Add:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =45
+        Icon: =Icon.Add
+        OnSelect: |-
+            =Navigate(sc_CandidateForm);
+            UpdateContext({cand_reset:false});UpdateContext({cand_reset:true});UpdateContext({new_candv:true})
+        Width: =50
+        X: =241
+        Y: =227
+        ZIndex: =22
+
