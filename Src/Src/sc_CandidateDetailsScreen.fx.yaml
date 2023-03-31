@@ -1,4 +1,4 @@
-sc_CandidateForm_1 As screen:
+sc_CandidateDetailsScreen As screen:
 
     "Gallery3 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
         BorderThickness: =2
@@ -122,9 +122,8 @@ sc_CandidateForm_1 As screen:
         Color: =RGBA(0, 0, 0, 1)
         Height: =45
         Icon: =Icon.Add
-        OnSelect: |-
+        OnSelect: |
             =Navigate(sc_CandidateForm);
-            UpdateContext({cand_reset:false});UpdateContext({cand_reset:true});UpdateContext({new_candv:true})
         Width: =50
         X: =241
         Y: =227
