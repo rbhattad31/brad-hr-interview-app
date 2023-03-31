@@ -70,13 +70,13 @@ sc_InterviewerForm As screen:
                 ZIndex: =3
 
             StarVisible30 As label:
-                Align: =Align.Center
-                Height: =DataCardKey30.Height
+                Height: =34
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
+                Width: =47
                 Wrap: =false
-                Y: =DataCardKey30.Y
+                X: =11
+                Y: =10
                 ZIndex: =4
 
         Department_DataCard4 As typedDataCard.comboBoxEditCard:
