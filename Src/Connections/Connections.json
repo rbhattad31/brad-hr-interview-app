@@ -23,6 +23,9 @@
           "Documents": {
             "tableName": "0923dcbd-b17e-4960-ae81-f3634168dd25"
           },
+          "Interview_e": {
+            "tableName": "0f2e86bc-262b-459d-b7d6-1eafb8678bb7"
+          },
           "Interviewer_d": {
             "tableName": "b472c3f9-cc74-4994-bb47-31d97a2e8c8a"
           },
@@ -37,7 +40,8 @@
       "Candidate_c",
       "Documents",
       "Positions_b",
-      "Interviewer_d"
+      "Interviewer_d",
+      "Interview_e"
     ],
     "dependencies": {},
     "dependents": [],
